@@ -31,7 +31,6 @@ As a passing test, run the letterFinder function and pass it with correct argume
  letterFinder("cat", "c").
 */
 
-var res = null;
 console.log(res)
 function letterFinder(word, match) {
     var condition1 = typeof(word) == 'string' && word.length >= 2;
@@ -51,10 +50,3 @@ function letterFinder(word, match) {
 }
 letterFinder(2, 5)
 letterFinder("hello", 'o')
-
-!null;
-
-var str ="hello"
-str.match("jello")
-
-(10).toString(100)
