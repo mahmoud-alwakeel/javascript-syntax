@@ -1,3 +1,4 @@
+// example of polymorphism
 const bicycle = {
     bell: function() {
         return "Ring, ring! Watch out, please!"
@@ -13,3 +14,5 @@ function ringTheBell(thing) {
 }
 
 ringTheBell(bicycle)
+
+ringTheBell(door)
