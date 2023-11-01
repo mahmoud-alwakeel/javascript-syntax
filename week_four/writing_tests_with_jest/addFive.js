@@ -3,9 +3,3 @@ function addFive(value) {
 }
 
 module.exports = addFive;
-
-
-function addd(a, b) {
-    console.log(a + b)
-}
-addd(3, "4")
